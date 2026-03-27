@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.contener {
+  display: flex;
+  margin-left: 60px;
+  margin-right: 60px !important;
+  align-items: center;
+  max-width: 1400px;
+
+
+}
+
+.parent {
+  max-width: 1500px;
+  margin: 100px;
+ 
+  background-color: white;
+
+
+
+  header {
+    display: flex;
+    padding-top: 30px;
+
+    .chaild-1 {
+      margin-left: 30px;
+      margin-right: 150px;
+    }
+
+    .chaild-2 {
+      margin-right: 500px;
+
+
+
+      a {
+        text-decoration: none;
+        font-size: 22px;
+        color: gray;
+        margin-left: 30px;
+
+
+      }
+
+    }
+
+    .chaild-2 a:nth-child(1) {
+      color: black;
+    }
+
+    .chaild-3 {
+      display: flex;
+      margin-right: 65px;
+
+
+
+    }
+  }
+
+}
+
+.parent-1 {
+  width: 1330px;
+  height: 512px;
+  background-color: #C1DCDC;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  font-family: 'Poppins';
+
+  .chaild-4 {
+    width: 451px;
+    height: 339px;
+    margin-left: 48px;
+    margin-top: 48px;
+    gap: 48px;
+
+
+    .chaild-6 {
+      h1 {
+        font-size: 64px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+      }
+    }
+
+    .chaild-7 {
+      display: flex;
+      gap: 30px;
+      margin-bottom: 40px;
+
+      font-size: 32px;
+
+      p {
+        font-size: 18px;
+      }
+
+    }
+
+    .chaild-10 {
+      font-size: 32px;
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .chaild-8 {
+      width: 449px;
+      height: 64px;
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 12px;
+
+      input {
+        width: 232px;
+        height: 27px;
+        border: none;
+        padding: 7px;
+        border-radius: 5px;
+
+      }
+
+      i {
+        width: 48px;
+        height: 48px;
+        background-color: #C1DCDC;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .chaild-5 {
+    margin-right: 77px;
+    margin-top: 28px;
+  }
+
+
+
+}
+
+.parent-2 {
+  margin-top: 90px;
+
+  .chaild-11 {
+    margin-top: -130px;
+    width: 256px;
+    height: 264px;
+    background-color: white;
+
+    h1 {
+      line-height: 1.5;
+      font-family: 'Poppins';
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+      color: grey;
+    }
+
+    button {
+      width: 168px;
+      height: 51px;
+      border-radius: 8px;
+      background-color: #C1DCDC;
+      border: none;
+      font-size: 18px;
+
+    }
+
+  }
+}
+
+.chaild-12 {
+  margin-right: 100px;
+
+  h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  p {
+    color: grey;
+  }
+}
+
+.chaild-13 {
+  margin-right: 100px;
+
+  h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  p {
+    color: grey;
+  }
+}
+
+.chaild-14 {
+  margin-right: 40px;
+  margin-top: 10px;
+
+  h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  p {
+    color: grey;
+  }
+}
+
+.parent-3 {
+  flex-direction: column;
+  font-family: 'Poppins';
+
+  .chaild-15 {
+    width: 430px;
+    height: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    line-height: 2;
+    margin-bottom: 30px;
+
+    P {
+      color: grey;
+    }
+  }
+
+  .chaild-16 {
+    display: flex;
+    margin-top: 20px;
+
+    .chaild-17 {
+      width: 400px;
+      height: 213px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 40px;
+
+      img {
+        margin-bottom: 20px;
+
+      }
+
+      h4 {
+        margin-bottom: 10px;
+      }
+    }
+
+    .chaild-18 {
+      width: 400px;
+      height: 213px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 90px;
+
+      img {
+        margin-bottom: 20px;
+
+      }
+
+      h4 {
+        margin-bottom: 10px;
+      }
+    }
+
+    .chaild-19 {
+      width: 400px;
+      height: 213px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+    }
+
+    img {
+      margin-bottom: 20px;
+
+    }
+
+    h4 {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.parent-4 {
+  width: 100%;
+  height: 1024px;
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .chaild-22 {
+    font-family: 'poppins';
+    margin-bottom: 50px;
+    line-height: 1.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parent-5 {
+    background-color: #C1DCDC;
+    display: flex;
+    justify-content: space-around;
+    height: 841px;
+    width: 100%;
+
+    img {
+      padding-top: 80px;
+    }
+
+    .chaild-30 {
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+
+      img {
+        margin-bottom: 20px;
+      }
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+
+    .chaild-31 {
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+
+      img {
+        margin-bottom: 20px;
+
+      }
+
+      h3 {
+        margin-bottom: 20px;
+      }
+
+      button {
+        width: 147px;
+        height: 51px;
+        border: none;
+        border-radius: 12px;
+        background-color: white;
+      }
+
+      p {
+        word-spacing: 5px;
+
+        line-height: 1.3;
+        color: grey;
+        margin-bottom: 20px;
+
+      }
+
+      .chaild-32 {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        img {
+          margin-bottom: 20px;
+        }
+      }
+
+    }
+  }
+}
+
+.parent-6{
+  font-family: 'poppins';
+width: 100%;
+height: 800px;
+
+
+flex-direction: column;
+.chaild-34{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-top: 90px;
+  margin-left: -770px;
+
+}
+
+.chaild-35{
+  width: 581px ;
+  height: 330px;
+  background-color:#b8dede ;
+   background-image: url('./unsplash_5aGUyCW_PJw-removebg-preview.png');
+   background-repeat: no-repeat;
+   background-position: 50px 100px;
+   border-radius: 16px;
+  p{
+  
+    display: flex;
+    justify-content: center;
+ padding-top: 50px;
+ 
+
+ font-size: 18px;
+    line-height: 1.2;
+
+  }
+  .chaild-38{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: 18px;
+   
+  }
+}
+
+
+
+}
+.parent-7{
+  display: flex;
+  gap: 50px;
+  margin-top: 140px;
+  margin-top:50px;
+
+  .chaild-39{
+    background-image: url('./unsplash_5aGUyCW_PJw-removebg-preview.png');
+     width: 581px ;
+  height: 330px;
+  background-color:#b8dede ;
+   background-image: url('./unsplash_O3ymvT7Wf9U-removebg-preview.svg');
+   background-repeat: no-repeat;
+   background-position: 50px 100px;
+   border-radius: 16px;
+  }
+    p{
+  
+    display: flex;
+    justify-content: center;
+ padding-top: 50px;
+    font-size: 18px;
+    line-height: 1.2;
+
+  }
+  .chaild-38{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: 18px;
+   
+  }
+
+}
+footer{
+
+  height:400px ;
+  background-color: #C1DCDC;
+  display: flex;
+  
+  .chaild-40{
+padding-top: 70px;
+  }
+  .chaild-41{
+    display: flex;
+    flex-direction: column;
+    width: 192px;
+    height: 179px;
+  
+    h3{
+      margin-bottom: 20px;
+      margin-left: -15px;
+      font-size: 32px;
+
+    }
+    p{
+        margin-bottom: 20px;
+      margin-left: -60px;
+      font-size: 20px;
+      color: grey;
+    }
+    img{
+      border: 1px solid grey ;
+      border-radius: 50%;
+      padding: 10px;
+      width: 28px;
+      height: 28px;
+
+    }
+
+  }
+  .chaild-50{
+    margin-top: 50px;
+    margin-left: 500px;
+    display: flex;
+    gap: 90px;
+    .child-45{
+      display: flex;
+      flex-direction: column;
+     a{
+     text-decoration: none;
+     }
+  }
+  }
+}
